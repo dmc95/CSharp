@@ -13,7 +13,7 @@ namespace Exercice16
             int nbreAdulte = Convert.ToInt32(Console.ReadLine());
             Console.Write("Entrez le nombre d'enfants du foyer :");
             int nbreEnfant = Convert.ToInt32(Console.ReadLine());
-
+            efzqef
             #region Structure Conditionelle
 
 
