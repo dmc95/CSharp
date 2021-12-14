@@ -31,6 +31,12 @@ namespace Exercice19
                 nbParts = nbAdulte + nbEnfants * 0.5;
             else
                 nbParts = nbAdulte + nbEnfants - 1;
+/*
+            #region ternaire
+            nbParts = nbEnfants <= 2 ? nbParts = nbAdulte + nbEnfants * 0.5 : nbParts = nbAdulte + nbEnfants - 1;
+            #endregion*/
+
+
 
             /*switch (nbEnfants)
             {
