@@ -1,0 +1,14 @@
+﻿DROP TABLE livre
+
+
+CREATE TABLE [dbo].[LIVRE]
+(
+		[Id] INT IDENTITY(1,1) NOT NULL,
+		[Titre] VARCHAR(150) NOT NULL,
+		[Auteur] VARCHAR(50) NOT NULL,
+		[Editeur] VARCHAR(50) NOT NULL,
+		[Date_publication] DATE NOT NULL,
+		[Isbn_10] VARCHAR(10) NOT NULL,
+		[Isbn_13] VARCHAR(15) NOT NULL
+		PRIMARY KEY CLUSTERED ([id] ASC)
+)

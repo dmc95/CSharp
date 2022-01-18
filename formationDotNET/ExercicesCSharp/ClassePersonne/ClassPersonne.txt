@@ -1,0 +1,16 @@
+Faire une Class Personne():
+
+Titre(string)
+nom(string)
+prenom(string)
+age(int)
+email(string)
+telephone(string)
+
+Constructeur vide, un avec deux paramètres (nom, prenom), un avec toutes les propriétés
+
+Méthode ToString()
+
+DEPUIS LA CLASS PROGRAMME
+
+Créer des instances de personnes que vous afficherez avec la méthode toString()

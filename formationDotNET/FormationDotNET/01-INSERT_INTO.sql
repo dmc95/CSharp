@@ -1,0 +1,27 @@
+﻿-- Affichage de la table ACC_TRANSACTION
+SELECT * FROM ACC_TRANSACTION
+
+-- Requête pour insérer des lignes dans la table de TRANSACTION
+-- Génération automatique de l'id (TXN_ID)
+-- Utilisation del'objet CURRENT_TIMESTAMP pour insérer la date / l'heure de  la TRANSACTION
+
+INSERT INTO ACC_TRANSACTION
+			(AMOUNT, 
+			FUNDS_AVAIL_DATE,
+			TXN_DATE, 
+			TXN_TYPE_CD,
+			ACCOUNT_ID,
+			EXECUTION_BRANCH_ID, 
+			TELLER_EMP_ID)
+
+VALUES (150,-- Amount
+		CURRENT_TIMESTAMP,-- FUNDS_AVAIL_DATE
+		CURRENT_TIMESTAMP,-- TXN_DATE
+		'CDT', -- TXN_TYPE_CD
+		4,--ACCOUNT_ID
+		NULL, --EXECUTION_BRANCH_ID, 	
+		NULL --TELLER_EMP_ID
+		)
+
+-- AFFICHAGE de la table ACC_TRANSACTION
+SELECT * FROM ACC_TRANSACTION
